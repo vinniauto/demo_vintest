@@ -1,2 +1,2 @@
 # demo_vintest
-learning demo project
+learning demo project for git and eclipse.
