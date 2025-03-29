@@ -32,5 +32,16 @@
 	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/apache-ant-1.9.6/lib/ant-testutil.jar"/>
 	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/commons-logging-1.2/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/commons-logging-1.2/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/JPMorgan-master/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/JPMorgan-master/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/chromedriver_win32.zip"/>
+	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/apache-ant-1.9.6-bin.zip"/>
+	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/commons-collections4-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/commons-logging-1.2-bin.zip"/>
+	<classpathentry kind="lib" path="D:/java_practice/vinTestngStart/lib/geckodriver-v0.13.0-win32.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
