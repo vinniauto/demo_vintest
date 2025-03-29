@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="lIsteners.MyTransformer"/>
+  </listeners>
+  <test name="forgnewchecjkvinGroupExample(failed)">
+    <groups>
+      <run>
+        <include name="MyTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="vinTestngStart.TestvinExam1">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- vinTestngStart.TestvinExam1 -->
+    </classes>
+  </test> <!-- forgnewchecjkvinGroupExample(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

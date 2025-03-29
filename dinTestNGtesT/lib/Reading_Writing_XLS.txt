@@ -1,0 +1,23 @@
+//www.sejsoft.com/downloads/jars.rar
+public class Reading_Writing_XLS {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Xls_Reader xl_Reader=new Xls_Reader("C:\\Users\\mohit\\Desktop\\Book1.xlsx");
+		/*boolean isExist=xl_Reader.isSheetExist("QTP");
+		System.out.println(isExist);*/
+		//xl_Reader.addSheet("QTP");
+		//xl_Reader.removeSheet("QTP");
+		//xl_Reader.addColumn("Selenium", "test");
+	//	xl_Reader.removeColumn("", colNum)
+		String str=xl_Reader.getCellData("Selenium", 1, 1);
+		str=xl_Reader.getCellData("Selenium", "Message", 3);
+		System.out.println(str);
+		
+		xl_Reader.setCellData("Selenium", "Message", 10, "3riInfo");
+		
+	}
+
+}

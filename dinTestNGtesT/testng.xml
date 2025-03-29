@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  // parallel="Methods" thread-count="2"
+<suite name="Suite1" >
+<listeners>
+  <listener class-name="lIsteners.MyTransformer"></listener>
+</listeners>
+    <test name="forgnewchecjkvinGroupExample">
+     <groups>
+       <run>
+        <include name="MyTest"></include>
+       </run>
+     </groups>
+    <classes>
+      <class name="vinTestngStart.TestvinExam1"/>
+      <class name="vinTestngStart.TestvinExam2"/>
+    </classes>
+  </test>
+</suite>
